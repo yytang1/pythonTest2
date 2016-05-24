@@ -1,0 +1,214 @@
+Within the modified.xml dates,do not have to revise
+modified CVE-2016-1045 needs updated
+modified CVE-2016-1046 needs updated
+modified CVE-2016-1047 needs updated
+modified CVE-2016-1048 needs updated
+modified CVE-2016-1049 needs updated
+modified CVE-2016-1050 needs updated
+modified CVE-2016-1051 needs updated
+modified CVE-2016-1052 needs updated
+modified CVE-2016-1053 needs updated
+modified CVE-2016-1054 needs updated
+modified CVE-2016-1055 needs updated
+modified CVE-2016-1056 needs updated
+modified CVE-2016-1057 needs updated
+modified CVE-2016-1058 needs updated
+modified CVE-2016-1059 needs updated
+modified CVE-2016-1060 needs updated
+modified CVE-2016-1061 needs updated
+modified CVE-2016-1065 needs updated
+modified CVE-2016-1066 needs updated
+modified CVE-2016-1067 needs updated
+modified CVE-2016-1068 needs updated
+modified CVE-2016-1069 needs updated
+modified CVE-2016-1070 needs updated
+modified CVE-2016-1104 needs updated
+modified CVE-2016-1107 needs updated
+modified CVE-2016-1200 needs updated
+modified CVE-2016-1206 needs updated
+modified CVE-2016-1207 needs updated
+modified CVE-2016-1208 needs updated
+modified CVE-2016-1209 needs updated
+modified CVE-2016-1236 needs updated
+modified CVE-2016-1377 needs updated
+modified CVE-2016-1399 needs updated
+modified CVE-2016-1401 do not exist in database
+modified CVE-2016-1402 do not exist in database
+modified CVE-2016-1578 needs updated
+modified CVE-2016-1580 needs updated
+modified CVE-2016-1646 needs updated
+modified CVE-2016-1647 needs updated
+modified CVE-2016-1648 needs updated
+modified CVE-2016-1649 needs updated
+modified CVE-2016-1650 needs updated
+modified CVE-2016-1653 needs updated
+modified CVE-2016-1654 needs updated
+modified CVE-2016-1655 needs updated
+modified CVE-2016-1659 needs updated
+modified CVE-2016-1660 needs updated
+modified CVE-2016-1661 needs updated
+modified CVE-2016-1662 needs updated
+modified CVE-2016-1663 needs updated
+modified CVE-2016-1664 needs updated
+modified CVE-2016-1665 needs updated
+modified CVE-2016-1666 needs updated
+modified CVE-2016-1667 needs updated
+modified CVE-2016-1668 needs updated
+modified CVE-2016-1669 needs updated
+modified CVE-2016-1670 needs updated
+modified CVE-2016-1671 needs updated
+modified CVE-2016-1742 do not exist in database
+modified CVE-2016-1790 do not exist in database
+modified CVE-2016-1791 do not exist in database
+modified CVE-2016-1792 do not exist in database
+modified CVE-2016-1793 do not exist in database
+modified CVE-2016-1794 do not exist in database
+modified CVE-2016-1795 do not exist in database
+modified CVE-2016-1796 do not exist in database
+modified CVE-2016-1797 do not exist in database
+modified CVE-2016-1798 do not exist in database
+modified CVE-2016-1799 do not exist in database
+modified CVE-2016-1800 do not exist in database
+modified CVE-2016-1801 do not exist in database
+modified CVE-2016-1802 do not exist in database
+modified CVE-2016-1803 do not exist in database
+modified CVE-2016-1804 do not exist in database
+modified CVE-2016-1805 do not exist in database
+modified CVE-2016-1806 do not exist in database
+modified CVE-2016-1807 do not exist in database
+modified CVE-2016-1808 do not exist in database
+modified CVE-2016-1809 do not exist in database
+modified CVE-2016-1810 do not exist in database
+modified CVE-2016-1811 do not exist in database
+modified CVE-2016-1812 do not exist in database
+modified CVE-2016-1813 do not exist in database
+modified CVE-2016-1814 do not exist in database
+modified CVE-2016-1815 do not exist in database
+modified CVE-2016-1816 do not exist in database
+modified CVE-2016-1817 do not exist in database
+modified CVE-2016-1818 do not exist in database
+modified CVE-2016-1819 do not exist in database
+modified CVE-2016-1820 do not exist in database
+modified CVE-2016-1821 do not exist in database
+modified CVE-2016-1822 do not exist in database
+modified CVE-2016-1823 do not exist in database
+modified CVE-2016-1824 do not exist in database
+modified CVE-2016-1825 do not exist in database
+modified CVE-2016-1826 do not exist in database
+modified CVE-2016-1827 do not exist in database
+modified CVE-2016-1828 do not exist in database
+modified CVE-2016-1829 do not exist in database
+modified CVE-2016-1830 do not exist in database
+modified CVE-2016-1831 do not exist in database
+modified CVE-2016-1832 do not exist in database
+modified CVE-2016-1833 do not exist in database
+modified CVE-2016-1834 do not exist in database
+modified CVE-2016-1835 do not exist in database
+modified CVE-2016-1836 do not exist in database
+modified CVE-2016-1837 do not exist in database
+modified CVE-2016-1838 do not exist in database
+modified CVE-2016-1839 do not exist in database
+modified CVE-2016-1840 do not exist in database
+modified CVE-2016-1841 do not exist in database
+modified CVE-2016-1842 do not exist in database
+modified CVE-2016-1843 do not exist in database
+modified CVE-2016-1844 do not exist in database
+modified CVE-2016-1846 do not exist in database
+modified CVE-2016-1847 do not exist in database
+modified CVE-2016-1848 do not exist in database
+modified CVE-2016-1849 do not exist in database
+modified CVE-2016-1850 do not exist in database
+modified CVE-2016-1851 do not exist in database
+modified CVE-2016-1852 do not exist in database
+modified CVE-2016-1853 do not exist in database
+modified CVE-2016-1854 do not exist in database
+modified CVE-2016-1855 do not exist in database
+modified CVE-2016-1856 do not exist in database
+modified CVE-2016-1857 do not exist in database
+modified CVE-2016-1858 do not exist in database
+modified CVE-2016-1859 do not exist in database
+modified CVE-2016-1952 needs updated
+modified CVE-2016-1954 needs updated
+modified CVE-2016-1957 needs updated
+modified CVE-2016-1958 needs updated
+modified CVE-2016-1960 needs updated
+modified CVE-2016-1961 needs updated
+modified CVE-2016-1962 needs updated
+modified CVE-2016-1964 needs updated
+modified CVE-2016-1965 needs updated
+modified CVE-2016-1966 needs updated
+modified CVE-2016-1974 needs updated
+modified CVE-2016-1977 needs updated
+modified CVE-2016-2015 needs updated
+modified CVE-2016-2016 needs updated
+modified CVE-2016-2060 needs updated
+modified CVE-2016-2077 do not exist in database
+modified CVE-2016-2099 needs updated
+modified CVE-2016-2100 do not exist in database
+modified CVE-2016-2189 do not exist in database
+modified CVE-2016-2194 needs updated
+modified CVE-2016-2195 needs updated
+modified CVE-2016-2196 needs updated
+modified CVE-2016-2208 do not exist in database
+modified CVE-2016-2296 needs updated
+modified CVE-2016-2297 needs updated
+modified CVE-2016-2298 needs updated
+modified CVE-2016-2331 needs updated
+modified CVE-2016-2342 needs updated
+modified CVE-2016-2387 needs updated
+modified CVE-2016-2389 needs updated
+modified CVE-2016-2456 needs updated
+modified CVE-2016-2536 needs updated
+modified CVE-2016-2554 do not exist in database
+modified CVE-2016-2849 needs updated
+modified CVE-2016-2850 needs updated
+modified CVE-2016-2860 needs updated
+modified CVE-2016-3141 needs updated
+modified CVE-2016-3142 needs updated
+modified CVE-2016-3185 do not exist in database
+modified CVE-2016-3627 do not exist in database
+modified CVE-2016-3628 needs updated
+modified CVE-2016-3674 do not exist in database
+modified CVE-2016-3679 needs updated
+modified CVE-2016-3693 do not exist in database
+modified CVE-2016-3705 do not exist in database
+modified CVE-2016-3710 needs updated
+modified CVE-2016-3712 needs updated
+modified CVE-2016-3719 do not exist in database
+modified CVE-2016-3721 do not exist in database
+modified CVE-2016-3722 do not exist in database
+modified CVE-2016-3723 do not exist in database
+modified CVE-2016-3724 do not exist in database
+modified CVE-2016-3725 do not exist in database
+modified CVE-2016-3726 do not exist in database
+modified CVE-2016-3727 do not exist in database
+modified CVE-2016-3728 do not exist in database
+modified CVE-2016-3739 do not exist in database
+modified CVE-2016-3943 needs updated
+modified CVE-2016-3950 needs updated
+modified CVE-2016-3969 needs updated
+modified CVE-2016-3981 needs updated
+modified CVE-2016-3982 needs updated
+modified CVE-2016-3984 needs updated
+modified CVE-2016-3993 needs updated
+modified CVE-2016-3994 needs updated
+modified CVE-2016-4024 needs updated
+modified CVE-2016-4036 needs updated
+modified CVE-2016-4070 do not exist in database
+modified CVE-2016-4071 do not exist in database
+modified CVE-2016-4072 do not exist in database
+modified CVE-2016-4073 do not exist in database
+modified CVE-2016-4117 needs updated
+modified CVE-2016-4325 needs updated
+modified CVE-2016-4348 do not exist in database
+modified CVE-2016-4350 needs updated
+modified CVE-2016-4425 do not exist in database
+modified CVE-2016-4439 do not exist in database
+modified CVE-2016-4441 do not exist in database
+modified CVE-2016-4480 do not exist in database
+modified CVE-2016-4536 needs updated
+modified CVE-2016-4553 needs updated
+modified CVE-2016-4554 needs updated
+modified CVE-2016-4555 needs updated
+modified CVE-2016-4556 needs updated
+modified CVE-2016-4561 needs updated

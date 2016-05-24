@@ -8,6 +8,7 @@ No check for uploading diff files, please make sure that the file exists and is 
 And the result of uploading vuln_info is stored in vulnResult in <main> function, please be sure to make good use of it :-)
 HTMLParser may break down when it's fed with incorrect html file.This would be helpful when debugging
 '''
+# 批量导入diff表格
 import urllib2
 from HTMLParser import HTMLParser
 import cookielib
@@ -73,6 +74,9 @@ class xslprocesser:
         self.rownum = self.sheetInstant.nrows
         self.colnum = self.sheetInstant.ncols
     def retrivedata(self, rowstart, rowend, col):
+        import sys
+        reload(sys)
+        sys.setdefaultencoding('utf-8')
         resultset = []
         for row in range(rowstart, rowend):
             temp = self.sheetInstant.cell(row, col).value
@@ -149,6 +153,7 @@ def remove_comma(str_):
             return str_[0:-1]
     return str_
 if __name__ == "__main__":
+    
     url = 'http://127.0.0.1:8000/login/?next=/index/'
     diffurl = 'http://127.0.0.1:8000/vulnerability/importDiff/'
     if os.path.exists('../diffs'):
@@ -170,7 +175,12 @@ if __name__ == "__main__":
     getstr = conn.request(url, None, data)
 #     xlc_filename = input('请输入excel文件名称（包含后缀）:')
 #     xlc_filename = 'E:\\workspace\\pythonTest2\\src\\asteriskresult.xls'
-    xlc_filename = 'E:\workspace\pythonTest2\src\Ffmpegresult.xls'
+    # 138
+#     xlc_filename = 'E:\workspace\pythonTest2\src\excel\Ffmpegresult.xls'
+    # 165
+#     xlc_filename = 'E:\workspace\pythonTest2\src\excel\Wiresharkresult.xls'
+    #542
+    xlc_filename = 'E:\workspace\pythonTest2\src\excel\Linux_kernelresult.xlsx'
     xslpro = xslprocesser(str(xlc_filename))
     start = int(str(input('请输入开始行号(excel 行数减一):')), 10)
     end = int(str(input('请输入结束行号(excel 行数 不 减一):')), 10)
@@ -207,16 +217,16 @@ if __name__ == "__main__":
             continue
         difffilepayload = {'cve':cveid, 'software':software, cookiename:cookie, 'vuln_file':vuln_files[index], 'vuln_func':vuln_funcs[index], 'diff_file': open(openfilename, "rb"), 'softwareVersion':software_versions[index], 'contain_version':contain_versions[index], 'reuse_version':reuse_versions[index], 'diff_link':diff_links[index]}
         getstr = conn.request(diffurl, None, difffilepayload)
-        if getstr.find('CVE does not exists,please check')!=-1:
-            diffResult.append('CVE does not exists'+cveid)
+        if getstr.find('CVE does not exists,please check') != -1:
+            diffResult.append('CVE does not exists' + cveid)
             continue
-        if getstr.find('Info exists,please check')!=-1:
-            diffResult.append('Already exists '+cveid+'-'+software)
+        if getstr.find('Info exists,please check') != -1:
+            diffResult.append('Already exists ' + cveid + '-' + software)
             continue
-        if getstr.find('Import successfully')!=-1:
-            diffResult.append('Success'+cveid)
+        if getstr.find('Import successfully') != -1:
+            diffResult.append('Success' + cveid)
         else :
-            diffResult.append('Unknown Error.Check the http form '+cveid)
+            diffResult.append('Unknown Error.Check the http form ' + cveid)
     ''' upload diff file complete'''
     total = 0
     success = 0

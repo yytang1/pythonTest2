@@ -5,7 +5,9 @@ import xlrd
 import types
 import sys  
 from _sqlite3 import Row
-
+# 导入diff特征
+# 表格需要sheet name Sheet0
+# 注意表格格式
 daname = 'news'
 passward = '123321'
 errors = []
@@ -40,7 +42,11 @@ def importDiffFeature(xlc_filename, start, end):
         features = xslpro.retrivedata(start, end, 3)
         db = MySQLdb.connect(charset="utf8", host='localhost', user='root', passwd=passward, db=daname)
         for i in range(0, len(cves)):
-            number = int(numbers[i].strip()[-3:][:1])
+            pos1=numbers[i].rfind('_')
+            pos2=numbers[i].rfind('.')
+            number=int(numbers[i][pos1+1:pos2])
+#             number = int(numbers[i].strip()[-3:][:1])
+            print number
             cur = db.cursor()
             sqlInfo = "select id from vulnerability_info where cve_id='%s'" % cves[i]
             print sqlInfo
@@ -55,6 +61,9 @@ def importDiffFeature(xlc_filename, start, end):
             if len(features[i]) < 1:
                 results.append(cves[i] + " no feature")
                 continue
+            if features[i].find('error')!=-1:
+                results.append(cves[i] + " error feature")
+                continue
             feature = features[i][1:]
             featureList = feature.split(',')
             for m in featureList:
@@ -63,8 +72,9 @@ def importDiffFeature(xlc_filename, start, end):
                 print sql
                 cur.execute(sql)
                 cur.close()
-            db.commit()
+            
             results.append(cves[i] + " Success")
+        db.commit()
         db.close()
 
 if __name__ == '__main__':
@@ -73,8 +83,9 @@ if __name__ == '__main__':
     str1 = input('请输入开始行号(excel 行数减一):')
     start = int(str(str1), 10)
     end = int(str(input('请输入结束行号(excel 行1数 不 减一):')), 10)
-#     filename = 'E:\\myWork\\bishe\\testData\\FeatureId.xlsx'
-    filename = 'E:\workspace\pythonTest2\src\Ffmpeg_feature.xlsx'
+#     filename = 'E:\workspace\pythonTest2\src\excel\Ffmpeg_feature.xlsx'
+#     filename = 'E:\workspace\pythonTest2\src\excel\linux_feature.xlsx'
+    filename = 'E:\workspace\pythonTest2\src\excel\wireshark_feature.xlsx'
     importDiffFeature(filename, start, end)
     for error in errors:
         print error
@@ -83,9 +94,15 @@ if __name__ == '__main__':
     
     success = 0
     total = 0
+    no = 0
+    error=0
     for item in results:
         if item.find('Success') != -1:
             success += 1
         total += 1
+        if item.find('no feature') != -1:
+            no += 1
+        if item.find('error') != -1:
+            error+=1
         print item
-    print ('total ' + str(total) + ' success: ' + str(success) + ' fail: ' + str(total - success))
+    print ('total ' + str(total) + ' success: ' + str(success) + ' fail: ' + str(total - success) + ' no feature ' + str(no) +' error '+ str(error))

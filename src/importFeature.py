@@ -7,7 +7,7 @@ import sys
 
 daname = 'news'
 passward = '123321'
-
+# 导入特征编码
 class xslprocesser:
     workbook = None
     sheetname = 'Sheet0'

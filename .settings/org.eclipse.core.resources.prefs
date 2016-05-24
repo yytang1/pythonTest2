@@ -1,8 +1,13 @@
 eclipse.preferences.version=1
+encoding//src/cve1.py=utf-8
+encoding//src/cve_infos.py=utf-8
 encoding//src/edb.py=utf-8
 encoding//src/importDiffBatch.py=utf-8
 encoding//src/importDiffFeature.py=utf-8
 encoding//src/importFeature.py=utf-8
+encoding//src/importReuse.py=utf-8
+encoding//src/importRuse2.py=utf-8
 encoding//src/main\ (2).py=utf-8
 encoding//src/main1\ (2).py=utf-8
 encoding//src/main1.py=utf-8
+encoding//src/updateDiff_file.py=utf-8
